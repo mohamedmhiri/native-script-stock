@@ -1,0 +1,38 @@
+.p {
+    padding: 10px;
+}
+.m {
+    padding: 10px;
+}
+
+.bgc-white {
+    background-color: #fff;
+}
+.page-name {
+    padding: 13px 8px;
+    font-size: 16px;
+    color: #000;
+}
+ActionBar {  
+    background-color:  #62C8A5;
+    color: white;
+}
+
+RadSideDrawer {  
+    padding: 0;
+    margin: 0;
+}
+.sidedrawer-header {
+  padding-top: 25;
+  padding-bottom: 25;
+  background-color: #62C8A5;
+}
+
+.sidedrawer-header .sidedrawer-header-image {
+  margin-bottom: 10;
+}
+
+.sidedrawer-header .sidedrawer-header-brand {
+  font-size: 18;
+  color: #fff;
+}

@@ -1,0 +1,6 @@
+/home/mohamed/Documents/development/javascript/native-script/finance/stock/platforms/android/src/main/assets/app/app.routing.js
+/home/mohamed/Documents/development/javascript/native-script/finance/stock/platforms/android/src/main/assets/app/market/market.component.js
+/home/mohamed/Documents/development/javascript/native-script/finance/stock/platforms/android/src/main/assets/app/market/market.js
+/home/mohamed/Documents/development/javascript/native-script/finance/stock/platforms/android/src/main/assets/app/market/market.service.js
+/home/mohamed/Documents/development/javascript/native-script/finance/stock/platforms/android/src/main/assets/app/palmares/palmares.component.js
+/home/mohamed/Documents/development/javascript/native-script/finance/stock/platforms/android/src/main/assets/app/palmares/palmares.js

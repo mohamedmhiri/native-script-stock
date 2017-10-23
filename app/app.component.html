@@ -1,0 +1,31 @@
+<ActionBar title="Tunisian Stock Exchange">  
+  <NavigationButton icon="res://ic_drawer" text="Go Back" (tap)="openDrawer()"></NavigationButton>
+</ActionBar>  
+<RadSideDrawer #drawer>
+    <!-- Set src attribute to the logo of the app -->
+<!--    <StackLayout class="sidedrawer-header">
+      <Image
+          class="sidedrawer-header-image" src="~/public/img/finance.png">
+      </Image>
+      <Label
+          class="sidedrawer-header-brand"
+          text="Tunisian Stock Exchange">
+      </Label>
+    </StackLayout>  
+-->    <ng-template drawerSide>
+        <StackLayout class="p bgc-white">
+            <ListView [items]="pages" row="1">
+                <ng-template let-item="item" let-i="index">
+                    <StackLayout>
+                        <Label text="{{item.name}}" class="page-name" ></Label>
+                    </StackLayout>
+                </ng-template>
+            </ListView>
+        </StackLayout>
+    </ng-template>
+    <ng-template drawerMain>
+        <StackLayout class="m">
+            <page-router-outlet></page-router-outlet>
+        </StackLayout>
+   </ng-template>
+</RadSideDrawer> 

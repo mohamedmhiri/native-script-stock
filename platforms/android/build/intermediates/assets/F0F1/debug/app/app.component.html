@@ -1,0 +1,31 @@
+<ActionBar title="Tunisian Stock Exchange">  
+  <NavigationButton icon="res://ic_drawer" text="Go Back" (tap)="openDrawer()"></NavigationButton>
+</ActionBar>  
+<RadSideDrawer #drawer>
+    <StackLayout class="sidedrawer-header">
+      <!-- Set src attribute to the logo of the app -->
+      <Image
+          class="sidedrawer-header-image" src="~/public/img/finance.png">
+      </Image>
+      <Label
+          class="sidedrawer-header-brand"
+          text="Tunisian Stock Exchange">
+      </Label>
+    </StackLayout>  
+    <template drawerSide>
+        <StackLayout class="p bgc-white">
+            <ListView [items]="pages" row="1">
+                <template let-item="item" let-i="index">
+                    <StackLayout>
+                        <Label text="{{item.name}}" class="page-name" ></Label>
+                    </StackLayout>
+                </template>
+            </ListView>
+        </StackLayout>
+    </template>
+    <template drawerMain>
+        <StackLayout class="m">
+            <page-router-outlet></page-router-outlet>
+        </StackLayout>
+   </template>
+</RadSideDrawer> 

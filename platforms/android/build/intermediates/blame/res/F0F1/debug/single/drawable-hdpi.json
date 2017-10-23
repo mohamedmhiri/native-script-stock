@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/mohamed/Documents/development/javascript/native-script/finance/stock/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-hdpi/logo.png",
+        "source": "/home/mohamed/Documents/development/javascript/native-script/finance/stock/platforms/android/src/main/res/drawable-hdpi/logo.png"
+    },
+    {
+        "merged": "/home/mohamed/Documents/development/javascript/native-script/finance/stock/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-hdpi/icon.png",
+        "source": "/home/mohamed/Documents/development/javascript/native-script/finance/stock/platforms/android/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/home/mohamed/Documents/development/javascript/native-script/finance/stock/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-hdpi/background.png",
+        "source": "/home/mohamed/Documents/development/javascript/native-script/finance/stock/platforms/android/src/main/res/drawable-hdpi/background.png"
+    }
+]
